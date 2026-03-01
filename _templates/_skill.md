@@ -1,15 +1,15 @@
 ---
-skill: "Character Development"
-category: character-writing
-tags: [skills-study, character-craft]
+skill: "{{SKILL_NAME}}"
+category: {{CATEGORY}}
+tags: [skills-study, {{CRAFT_TAG}}]
 status: not-started  # not-started | researching | practicing | proficient
 priority: medium  # low | medium | high
 seen_in_authors: []
-created: 2026-03-01
-last_updated: 2026-03-01
+created: {{DATE}}
+last_updated: {{DATE}}
 ---
 
-# Character Development
+# {{SKILL_NAME}}
 
 ## What Is This Skill?
 
