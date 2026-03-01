@@ -1,15 +1,17 @@
 ---
-skill: "Beginnings and Endings"
+skill: Opening and Closing
 category: prose-techniques
-tags: [skills-study, prose-craft]
-status: not-started  # not-started | researching | practicing | proficient
-priority: medium  # low | medium | high
+tags:
+  - skills-study
+  - prose-craft
+status: not-started
+priority: medium
 seen_in_authors: []
 created: 2026-03-01
 last_updated: 2026-03-01
 ---
 
-# Beginnings and Endings
+# Opening and Closing
 
 ## What Is This Skill?
 
