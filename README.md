@@ -22,20 +22,26 @@ WP-Skills-Study/
 Run the script from the repo root:
 
 ```bash
-./new-skill.sh "Skill Name" <category>
+./new-skill.sh
 ```
 
-**Categories:**
-- `character-writing`
-- `prose-techniques`
-- `story-writing`
+The script will prompt you for a skill title, then present a numbered list of existing categories to choose from. You can also enter `n` to create a new category on the fly.
 
-**Example:**
-```bash
-./new-skill.sh "Free Indirect Discourse" story-writing
+```
+Skill title: Free Indirect Discourse
+
+Available categories:
+  1) character_writing
+  2) prose_techniques
+  3) story_writing
+  n) New category
+
+Select category [1-3 or n]: 2
+
+✓ Created: prose_techniques/05_free_indirect_discourse.md
 ```
 
-This creates a pre-filled skill file in the correct folder, ready to study.
+Files are automatically assigned the next numeric prefix in the chosen category (e.g. if `01`, `02`, `03` already exist, the new file will be `04`). If the category is empty or new, it starts at `01`.
 
 ---
 
